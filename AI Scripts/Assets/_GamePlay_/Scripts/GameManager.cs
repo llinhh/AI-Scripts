@@ -11,5 +11,6 @@ public class GameManager : MonoBehaviour
         Ins = this;
     }
 
+    public List<Weapon> ListWeapon = new List<Weapon>();
 
 }

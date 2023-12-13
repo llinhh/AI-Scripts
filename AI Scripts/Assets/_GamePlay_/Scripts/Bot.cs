@@ -18,10 +18,13 @@ public class Bot : MonoBehaviour
     public float timeStart = 3f;
     public float timeCountdownt = 0;
     public bool isMoving;
+    public GameObject WeaponInHand;
+    public GameObject WeaponToThrow;
     void Start()
     {
         CurrentWayPointIndex = Random.Range(Random.Range(0, 10), wayPoints.Count);
         NearestCharacter = null;
+        BotManager.Ins.GetRandomWeapon(this);
         ChangeState(new IdleState());
     }
 
@@ -34,6 +37,17 @@ public class Bot : MonoBehaviour
     public void FireAction()
     {
         Debug.Log("Spawn Weapon");
+
+        if(isMoving || NearestCharacter == null)
+        {
+            return;
+        }
+
+        if(WeaponToThrow.name == "WeaponCandy")
+        {
+
+        }
+
     }
    
     public void FindAround()

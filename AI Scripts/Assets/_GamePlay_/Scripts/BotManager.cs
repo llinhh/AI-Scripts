@@ -12,5 +12,9 @@ public class BotManager : MonoBehaviour
 
     public List<Bot> ListBotOnMap = new List<Bot>();
 
-    
+    public void GetRandomWeapon(Bot bot)
+    {
+        int RandomWeapon = Random.Range(Random.Range(0, 10), GameManager.Ins.ListWeapon.Count);
+        bot.WeaponInHand = GameManager.Ins.ListWeapon[RandomWeapon].gameObject;
+    }
 }
