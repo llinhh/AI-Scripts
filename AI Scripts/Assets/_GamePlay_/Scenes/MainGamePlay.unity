@@ -275,6 +275,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7524832795193736323, guid: b8d1e4157b903ca4a8bf3e3517098b98, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b8d1e4157b903ca4a8bf3e3517098b98, type: 3}
 --- !u!4 &22371719 stripped
@@ -367,6 +371,11 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 54276704}
   m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &67543658 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7338002292346522700, guid: d490d667ada11224ab7b5e4f3982d805, type: 3}
+  m_PrefabInstance: {fileID: 271022171}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &203353941
 GameObject:
   m_ObjectHideFlags: 0
@@ -589,11 +598,12 @@ MonoBehaviour:
   timeStart: 1
   timeCountdownt: 0
   isMoving: 0
-  WeaponInHand: {fileID: 0}
-  WeaponToThrow: {fileID: 0}
-  ammo: {fileID: 0}
-  weaponSpawnPoint: {fileID: 0}
+  WeaponInHand: {fileID: 1937977648}
+  WeaponToThrow: {fileID: 598702790339076242, guid: d70c1b654644ece41993a59c69aef10c, type: 3}
+  ammo: {fileID: 598702790339076242, guid: d70c1b654644ece41993a59c69aef10c, type: 3}
+  weaponSpawnPoint: {fileID: 965623985}
   isDead: 0
+  Damage: 0
 --- !u!4 &237656518
 Transform:
   m_ObjectHideFlags: 0
@@ -620,6 +630,10 @@ PrefabInstance:
     - target: {fileID: 598702790339076242, guid: d70c1b654644ece41993a59c69aef10c, type: 3}
       propertyPath: m_Name
       value: WeaponCandyCane
+      objectReference: {fileID: 0}
+    - target: {fileID: 598702790339076243, guid: d70c1b654644ece41993a59c69aef10c, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 598702790339076244, guid: d70c1b654644ece41993a59c69aef10c, type: 3}
       propertyPath: m_RootOrder
@@ -682,6 +696,10 @@ PrefabInstance:
     - target: {fileID: 7338002292346522700, guid: d490d667ada11224ab7b5e4f3982d805, type: 3}
       propertyPath: m_Name
       value: WeaponLolipop
+      objectReference: {fileID: 0}
+    - target: {fileID: 7338002292346522701, guid: d490d667ada11224ab7b5e4f3982d805, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7338002292346522702, guid: d490d667ada11224ab7b5e4f3982d805, type: 3}
       propertyPath: m_RootOrder
@@ -819,6 +837,11 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 327916527}
   m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &331925074 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7338002292346522700, guid: d490d667ada11224ab7b5e4f3982d805, type: 3}
+  m_PrefabInstance: {fileID: 7338002291215499732}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &332650773
 GameObject:
   m_ObjectHideFlags: 0
@@ -904,6 +927,11 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 332650773}
   m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &356004385 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7524832795193736321, guid: b8d1e4157b903ca4a8bf3e3517098b98, type: 3}
+  m_PrefabInstance: {fileID: 22371718}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &392239669
 GameObject:
   m_ObjectHideFlags: 0
@@ -1072,11 +1100,12 @@ MonoBehaviour:
   timeStart: 1
   timeCountdownt: 0
   isMoving: 0
-  WeaponInHand: {fileID: 0}
-  WeaponToThrow: {fileID: 0}
-  ammo: {fileID: 0}
-  weaponSpawnPoint: {fileID: 0}
+  WeaponInHand: {fileID: 851943578}
+  WeaponToThrow: {fileID: 7338002292346522700, guid: d490d667ada11224ab7b5e4f3982d805, type: 3}
+  ammo: {fileID: 7338002292346522700, guid: d490d667ada11224ab7b5e4f3982d805, type: 3}
+  weaponSpawnPoint: {fileID: 1290964576}
   isDead: 0
+  Damage: 0
 --- !u!4 &504676183
 Transform:
   m_ObjectHideFlags: 0
@@ -1134,8 +1163,8 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 7524832795193736323, guid: b8d1e4157b903ca4a8bf3e3517098b98, type: 3}
   m_PrefabInstance: {fileID: 7524832795696233948}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
+  m_GameObject: {fileID: 1546414792}
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 80d1b36ec1cab4d48a4df10be11efe4e, type: 3}
   m_Name: 
@@ -1193,6 +1222,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7524832795193736322, guid: b8d1e4157b903ca4a8bf3e3517098b98, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7524832795193736323, guid: b8d1e4157b903ca4a8bf3e3517098b98, type: 3}
+      propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -1339,11 +1372,12 @@ MonoBehaviour:
   timeStart: 1
   timeCountdownt: 0
   isMoving: 0
-  WeaponInHand: {fileID: 0}
-  WeaponToThrow: {fileID: 0}
-  ammo: {fileID: 0}
-  weaponSpawnPoint: {fileID: 0}
+  WeaponInHand: {fileID: 1546414792}
+  WeaponToThrow: {fileID: 7524832795193736321, guid: b8d1e4157b903ca4a8bf3e3517098b98, type: 3}
+  ammo: {fileID: 7524832795193736321, guid: b8d1e4157b903ca4a8bf3e3517098b98, type: 3}
+  weaponSpawnPoint: {fileID: 1486284326}
   isDead: 0
+  Damage: 0
 --- !u!54 &679359432
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1539,6 +1573,11 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 90, y: -30, z: 0}
+--- !u!1 &705663822 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7524832795193736321, guid: b8d1e4157b903ca4a8bf3e3517098b98, type: 3}
+  m_PrefabInstance: {fileID: 574309975}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &714808622
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1549,6 +1588,10 @@ PrefabInstance:
     - target: {fileID: 7338002292346522700, guid: d490d667ada11224ab7b5e4f3982d805, type: 3}
       propertyPath: m_Name
       value: WeaponLolipop
+      objectReference: {fileID: 0}
+    - target: {fileID: 7338002292346522701, guid: d490d667ada11224ab7b5e4f3982d805, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7338002292346522702, guid: d490d667ada11224ab7b5e4f3982d805, type: 3}
       propertyPath: m_RootOrder
@@ -1663,6 +1706,11 @@ Transform:
   m_Father: {fileID: 1997000172}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &851943578 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7338002292346522700, guid: d490d667ada11224ab7b5e4f3982d805, type: 3}
+  m_PrefabInstance: {fileID: 714808622}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &922692219
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1673,6 +1721,10 @@ PrefabInstance:
     - target: {fileID: 598702790339076242, guid: d70c1b654644ece41993a59c69aef10c, type: 3}
       propertyPath: m_Name
       value: WeaponCandyCane
+      objectReference: {fileID: 0}
+    - target: {fileID: 598702790339076243, guid: d70c1b654644ece41993a59c69aef10c, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 598702790339076244, guid: d70c1b654644ece41993a59c69aef10c, type: 3}
       propertyPath: m_RootOrder
@@ -1730,8 +1782,8 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 598702790339076243, guid: d70c1b654644ece41993a59c69aef10c, type: 3}
   m_PrefabInstance: {fileID: 598702791031093696}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
+  m_GameObject: {fileID: 2061092980}
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 80d1b36ec1cab4d48a4df10be11efe4e, type: 3}
   m_Name: 
@@ -1962,11 +2014,12 @@ MonoBehaviour:
   timeStart: 1
   timeCountdownt: 0
   isMoving: 0
-  WeaponInHand: {fileID: 0}
-  WeaponToThrow: {fileID: 0}
-  ammo: {fileID: 0}
-  weaponSpawnPoint: {fileID: 0}
+  WeaponInHand: {fileID: 705663822}
+  WeaponToThrow: {fileID: 7524832795193736321, guid: b8d1e4157b903ca4a8bf3e3517098b98, type: 3}
+  ammo: {fileID: 7524832795193736321, guid: b8d1e4157b903ca4a8bf3e3517098b98, type: 3}
+  weaponSpawnPoint: {fileID: 771803464}
   isDead: 0
+  Damage: 0
 --- !u!4 &1025606592
 Transform:
   m_ObjectHideFlags: 0
@@ -2147,8 +2200,8 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 7338002292346522701, guid: d490d667ada11224ab7b5e4f3982d805, type: 3}
   m_PrefabInstance: {fileID: 7338002291215499732}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
+  m_GameObject: {fileID: 331925074}
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 80d1b36ec1cab4d48a4df10be11efe4e, type: 3}
   m_Name: 
@@ -2540,11 +2593,12 @@ MonoBehaviour:
   timeStart: 1
   timeCountdownt: 0
   isMoving: 0
-  WeaponInHand: {fileID: 0}
-  WeaponToThrow: {fileID: 0}
-  ammo: {fileID: 0}
-  weaponSpawnPoint: {fileID: 0}
+  WeaponInHand: {fileID: 2093209481}
+  WeaponToThrow: {fileID: 598702790339076242, guid: d70c1b654644ece41993a59c69aef10c, type: 3}
+  ammo: {fileID: 598702790339076242, guid: d70c1b654644ece41993a59c69aef10c, type: 3}
+  weaponSpawnPoint: {fileID: 1329196785}
   isDead: 0
+  Damage: 0
 --- !u!4 &1335370193
 Transform:
   m_ObjectHideFlags: 0
@@ -2739,6 +2793,11 @@ Transform:
   m_Father: {fileID: 1041312179}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1431158054 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 598702790339076242, guid: d70c1b654644ece41993a59c69aef10c, type: 3}
+  m_PrefabInstance: {fileID: 250757459}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1444788382
 GameObject:
   m_ObjectHideFlags: 0
@@ -2942,11 +3001,12 @@ MonoBehaviour:
   timeStart: 1
   timeCountdownt: 0
   isMoving: 0
-  WeaponInHand: {fileID: 0}
-  WeaponToThrow: {fileID: 0}
-  ammo: {fileID: 0}
-  weaponSpawnPoint: {fileID: 0}
+  WeaponInHand: {fileID: 2061092980}
+  WeaponToThrow: {fileID: 598702790339076242, guid: d70c1b654644ece41993a59c69aef10c, type: 3}
+  ammo: {fileID: 598702790339076242, guid: d70c1b654644ece41993a59c69aef10c, type: 3}
+  weaponSpawnPoint: {fileID: 1545685698}
   isDead: 0
+  Damage: 0
 --- !u!4 &1450022555
 Transform:
   m_ObjectHideFlags: 0
@@ -3131,11 +3191,12 @@ MonoBehaviour:
   timeStart: 1
   timeCountdownt: 0
   isMoving: 0
-  WeaponInHand: {fileID: 0}
-  WeaponToThrow: {fileID: 0}
-  ammo: {fileID: 0}
-  weaponSpawnPoint: {fileID: 0}
+  WeaponInHand: {fileID: 331925074}
+  WeaponToThrow: {fileID: 7338002292346522700, guid: d490d667ada11224ab7b5e4f3982d805, type: 3}
+  ammo: {fileID: 7338002292346522700, guid: d490d667ada11224ab7b5e4f3982d805, type: 3}
+  weaponSpawnPoint: {fileID: 392239670}
   isDead: 0
+  Damage: 0
 --- !u!4 &1522408295
 Transform:
   m_ObjectHideFlags: 0
@@ -3183,6 +3244,11 @@ Transform:
   m_Father: {fileID: 204086445}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1546414792 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7524832795193736321, guid: b8d1e4157b903ca4a8bf3e3517098b98, type: 3}
+  m_PrefabInstance: {fileID: 7524832795696233948}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1579478532
 GameObject:
   m_ObjectHideFlags: 0
@@ -3289,11 +3355,12 @@ MonoBehaviour:
   timeStart: 1
   timeCountdownt: 0
   isMoving: 0
-  WeaponInHand: {fileID: 0}
-  WeaponToThrow: {fileID: 0}
-  ammo: {fileID: 0}
-  weaponSpawnPoint: {fileID: 0}
+  WeaponInHand: {fileID: 67543658}
+  WeaponToThrow: {fileID: 7338002292346522700, guid: d490d667ada11224ab7b5e4f3982d805, type: 3}
+  ammo: {fileID: 7338002292346522700, guid: d490d667ada11224ab7b5e4f3982d805, type: 3}
+  weaponSpawnPoint: {fileID: 616798560}
   isDead: 0
+  Damage: 0
 --- !u!4 &1579478537
 Transform:
   m_ObjectHideFlags: 0
@@ -3429,6 +3496,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1704324420}
+  - component: {fileID: 1704324423}
+  - component: {fileID: 1704324422}
+  - component: {fileID: 1704324421}
   m_Layer: 0
   m_Name: Ammo
   m_TagString: Untagged
@@ -3451,6 +3521,51 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1704324421
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1704324419}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3c7b65d96144a54fab0be9fd1428703, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ThrowPrefab: {fileID: 598702790339076242, guid: d70c1b654644ece41993a59c69aef10c, type: 3}
+  Throw: []
+  ThrowAmount: 10
+--- !u!114 &1704324422
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1704324419}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ef97cc15631ab24fbea25b62e5e11c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ThrowPrefab: {fileID: 7524832795193736321, guid: b8d1e4157b903ca4a8bf3e3517098b98, type: 3}
+  Throw: []
+  ThrowAmount: 10
+--- !u!114 &1704324423
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1704324419}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60e7dfbdf661736449755a9f571ba5c9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ThrowPrefab: {fileID: 7338002292346522700, guid: d490d667ada11224ab7b5e4f3982d805, type: 3}
+  Throw: []
+  ThrowAmount: 10
 --- !u!1 &1738943647
 GameObject:
   m_ObjectHideFlags: 0
@@ -3557,11 +3672,12 @@ MonoBehaviour:
   timeStart: 1
   timeCountdownt: 0
   isMoving: 0
-  WeaponInHand: {fileID: 0}
-  WeaponToThrow: {fileID: 0}
-  ammo: {fileID: 0}
-  weaponSpawnPoint: {fileID: 0}
+  WeaponInHand: {fileID: 356004385}
+  WeaponToThrow: {fileID: 7524832795193736321, guid: b8d1e4157b903ca4a8bf3e3517098b98, type: 3}
+  ammo: {fileID: 7524832795193736321, guid: b8d1e4157b903ca4a8bf3e3517098b98, type: 3}
+  weaponSpawnPoint: {fileID: 1950609408}
   isDead: 0
+  Damage: 0
 --- !u!4 &1738943652
 Transform:
   m_ObjectHideFlags: 0
@@ -3919,6 +4035,11 @@ Transform:
   m_Father: {fileID: 1041312179}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1937977648 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 598702790339076242, guid: d70c1b654644ece41993a59c69aef10c, type: 3}
+  m_PrefabInstance: {fileID: 922692219}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1950609407
 GameObject:
   m_ObjectHideFlags: 0
@@ -4056,11 +4177,12 @@ MonoBehaviour:
   timeStart: 1
   timeCountdownt: 0
   isMoving: 0
-  WeaponInHand: {fileID: 0}
-  WeaponToThrow: {fileID: 0}
-  ammo: {fileID: 0}
-  weaponSpawnPoint: {fileID: 0}
+  WeaponInHand: {fileID: 1431158054}
+  WeaponToThrow: {fileID: 598702790339076242, guid: d70c1b654644ece41993a59c69aef10c, type: 3}
+  ammo: {fileID: 598702790339076242, guid: d70c1b654644ece41993a59c69aef10c, type: 3}
+  weaponSpawnPoint: {fileID: 479010959}
   isDead: 0
+  Damage: 0
 --- !u!4 &1951312554
 Transform:
   m_ObjectHideFlags: 0
@@ -4258,6 +4380,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WeaponCandyCane
       objectReference: {fileID: 0}
+    - target: {fileID: 598702790339076243, guid: d70c1b654644ece41993a59c69aef10c, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 598702790339076244, guid: d70c1b654644ece41993a59c69aef10c, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -4308,6 +4434,11 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 598702790339076244, guid: d70c1b654644ece41993a59c69aef10c, type: 3}
   m_PrefabInstance: {fileID: 2032445957}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &2061092980 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 598702790339076242, guid: d70c1b654644ece41993a59c69aef10c, type: 3}
+  m_PrefabInstance: {fileID: 598702791031093696}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &2077013884
 GameObject:
@@ -4406,6 +4537,11 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2093209481 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 598702790339076242, guid: d70c1b654644ece41993a59c69aef10c, type: 3}
+  m_PrefabInstance: {fileID: 2032445957}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &598702791031093696
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4416,6 +4552,10 @@ PrefabInstance:
     - target: {fileID: 598702790339076242, guid: d70c1b654644ece41993a59c69aef10c, type: 3}
       propertyPath: m_Name
       value: WeaponCandyCane
+      objectReference: {fileID: 0}
+    - target: {fileID: 598702790339076243, guid: d70c1b654644ece41993a59c69aef10c, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 598702790339076244, guid: d70c1b654644ece41993a59c69aef10c, type: 3}
       propertyPath: m_RootOrder
@@ -4473,6 +4613,10 @@ PrefabInstance:
     - target: {fileID: 7338002292346522700, guid: d490d667ada11224ab7b5e4f3982d805, type: 3}
       propertyPath: m_Name
       value: WeaponLolipop
+      objectReference: {fileID: 0}
+    - target: {fileID: 7338002292346522701, guid: d490d667ada11224ab7b5e4f3982d805, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7338002292346522702, guid: d490d667ada11224ab7b5e4f3982d805, type: 3}
       propertyPath: m_RootOrder
@@ -4573,6 +4717,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7524832795193736322, guid: b8d1e4157b903ca4a8bf3e3517098b98, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7524832795193736323, guid: b8d1e4157b903ca4a8bf3e3517098b98, type: 3}
+      propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
