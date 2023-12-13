@@ -42,7 +42,7 @@ public class Weapon : MonoBehaviour
     {
         BotOwnerPos = botOwnerPos;
 
-        fixedDirectToCharacter = (positionTarget - botOwnerPos).normalized;
+        fixedDirectToCharacter = (positionTarget - BotOwnerPos).normalized;
     }
 
     public void setTargetPosition(Vector3 targetPos)

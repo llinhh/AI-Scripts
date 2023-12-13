@@ -4,10 +4,10 @@ using UnityEngine;
 
 public class Candy : Weapon
 {
-    private Transform CandyBulletTf;
+    private Transform CandyAmmoTransform;
     private void Start()
     {
-        CandyBulletTf = this.transform;
+        CandyAmmoTransform = this.transform;
     }
 
     public override void UpdateState()
@@ -18,11 +18,11 @@ public class Candy : Weapon
 
         Quaternion lookTarget = Quaternion.LookRotation(fixedDirectToCharacter);
 
-        Vector3 rotation = Quaternion.Lerp(CandyBulletTf.rotation, lookTarget, Time.deltaTime * 30f).eulerAngles;
+        Vector3 rotation = Quaternion.Lerp(CandyAmmoTransform.rotation, lookTarget, Time.deltaTime * 30f).eulerAngles;
 
-        CandyBulletTf.Translate(fixedDirectToCharacter * Time.deltaTime * speed, Space.World);
+        CandyAmmoTransform.Translate(fixedDirectToCharacter * Time.deltaTime * speed, Space.World);
 
-        CandyBulletTf.rotation = Quaternion.Euler(0f, rotation.y, 0f);
+        CandyAmmoTransform.rotation = Quaternion.Euler(0f, rotation.y, 0f);
 
     }
 }
